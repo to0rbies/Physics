@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #00c3ff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(6, 124, 179);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(9, 74, 117);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    position: absolute;
+    top: 100vh;
+    background-color: rgb(43, 8, 126);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container2 {
+    position: absolute;
+    top: 100vh;
+    background-color: rgb(14, 6, 88);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container3 {
+    position: absolute;
+    top: 100vh;
+    background-color: rgb(19, 39, 129);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.form input {
+    display: block;
+}
+
+.form {
+    position: absolute;
+    top: 45vh;
+    left: 16vw;
+}
+
+.form span {
+    color: rgb(0, 217, 255);
+    position: absolute;
+    top: 0px;
+    left: 270px;
+    font-size: 25px;
+
+}
+
+input {
+    padding-left: 15px;
+    margin: 25px;
+    width: 300px;
+    height: 50px;
+    outline: none;
+    border-radius: 10px;
+    transition: all 0.2s;
+    border: none;
+}
+
+input:hover {
+    border: 3px solid aqua;
+}
+
+.form button {
+    position: relative;
+    bottom: 20px;
+    margin: 25px;
+}
+
+.container h2 {
+    position: absolute;
+    right: 23vw;
+    top: 50vh;
+    color: white;
+    font-size: 80px;
+}

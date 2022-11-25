@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: rgb(0, 0, 0);
+
+}
+
+iframe {
+    position: absolute;
+    opacity: 0.4;
+    border: 5px solid aqua;
+}
+
+.box {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.712);
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1 {
+    font-size: 122px;
+    position: absolute;
+    top: 100px;
+    color: rgb(255, 255, 255);
+
+}
+
+button {
+    position: relative;
+    cursor: pointer;
+    color: white;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 200px;
+    height: 60px;
+    margin: 10px;
+    outline: none;
+    background-color: rgb(54, 101, 187);
+    transition: all 0.3s;
+    user-select: none;
+    border: none;
+}
+
+button:hover {
+    border: 3px solid aqua;
+    box-shadow: -6px 7px 5px 0px rgba(9, 255, 181, 0.75);
+    -webkit-box-shadow: -6px 7px 5px 0px rgba(9, 255, 181, 0.75);
+    -moz-box-shadow: -6px 7px 5px 0px rgba(9, 255, 181, 0.75);
+}
+
+#main {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    box-shadow: none;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
